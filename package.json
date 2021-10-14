@@ -1,0 +1,25 @@
+{
+  "name": "employee-profiles",
+  "version": "1.0.0",
+  "description": "An application to easily view employee role and contact links.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xZ3n/employee-profiles.git"
+  },
+  "author": "0xZ3n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xZ3n/employee-profiles/issues"
+  },
+  "homepage": "https://github.com/0xZ3n/employee-profiles#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
