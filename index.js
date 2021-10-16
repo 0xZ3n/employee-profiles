@@ -57,7 +57,7 @@ function addEmployees() {
             type: 'list',
             message: "Select employee role.",
             choices: ["Engineer","Intern"]
-            when: (input)
+            
 
         },
 
@@ -100,3 +100,4 @@ function addEmployees() {
 
     ])
 }
+
