@@ -64,7 +64,7 @@ function addEmployees() {
         {
             name: 'id',
             type: 'input',
-            message: 'Enter employee ID: '
+            message: 'Enter employee ID: ',
             validate: idInput => {
                 if(!idInput) {
                     console.log("Required input!")
@@ -101,3 +101,4 @@ function addEmployees() {
     ])
 }
 
+profileQuestions();
