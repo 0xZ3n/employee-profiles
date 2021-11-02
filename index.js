@@ -108,4 +108,8 @@ function addEmployees() {
     })
 }
 
-profileQuestions();
+// profileQuestions();
+// addEmployees();
+
+profileQuestions()
+    .then(addEmployees)
