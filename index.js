@@ -14,7 +14,7 @@ var profileQuestions = () => {
         {
             type: 'input',
             name: 'name',
-            message: 'Manger name: ',
+            message: 'Manager name: ',
             validate: nameInput => {
                 if(nameInput) {
                     return true;
@@ -99,6 +99,13 @@ function addEmployees() {
 
 
     ])
+
+    .then (employeeProfile => {
+        let employee = new Employee(employeeProfile.name, employeeProfile.id, employeeProfile.email, employeeProfile.officeNumber);
+
+        teamProfiles.push(employee);
+        console.log(teamProfiles);
+    })
 }
 
 profileQuestions();
