@@ -3,7 +3,7 @@ An application to easily view employee role and contact links.
 
 This application successfully runs tests for the connections to each of their respective JS files, but I had problems making the inquirer sections work appropriately. 
 
-
+https://watch.screencastify.com/v/6UNuIoopMY1ukoAxMaQl
 
 ##User Story
 AS A manager
